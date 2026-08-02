@@ -1,0 +1,107 @@
+# Diverse-accent YouTube channels for speech-enhancement training.
+# Lines starting with # are comments. URLs can be channels, playlists, or videos.
+#
+# Run with:
+#   python scripts/download_youtube.py --from-file podcast_sources.txt --max 5 --split-sec 10 --skip-intro 60 --skip-outro 60
+#
+# --max  = number of recent videos per channel
+# --split-sec = each episode is sliced into N-second clips before training
+# --skip-intro / --skip-outro = trim music + ads from start/end
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  WEST AFRICAN (Nigerian, Ghanaian)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@ISaidWhatISaidPod
+https://www.youtube.com/@TeaWithTayPodcast
+https://www.youtube.com/@TheHonestBunchPodcast
+https://www.youtube.com/@MenakaPodcast
+https://www.youtube.com/@Sincerely.Accra
+https://www.youtube.com/@thedaalushow
+https://www.youtube.com/@MenaceWatershedPodcast
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  EAST / SOUTHERN AFRICAN (Kenyan, South African, Tanzanian, Ugandan)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@thepodcastandchillnetwork    # South Africa
+https://www.youtube.com/@TheBigBrunchPod              # Kenya
+https://www.youtube.com/@MicCheckPodcast              # Kenya / East Africa
+https://www.youtube.com/@HustlersParadisePodcast      # Tanzania
+https://www.youtube.com/@TheSpaceshipPodcast          # South Africa
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  CARIBBEAN / BLACK DIASPORA (UK Black, US Black, Jamaican, Trinidadian)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@TheReceiptsPodcast           # UK Black
+https://www.youtube.com/@TheReadPodcast               # US Black
+https://www.youtube.com/@TheStoop                     # African diaspora US
+https://www.youtube.com/@CMonItsTrini                 # Trinidadian
+https://www.youtube.com/@BlackGirlInTheRing           # UK Caribbean
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  SOUTH ASIAN (Indian, Pakistani, Bangladeshi, Sri Lankan)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@ranveerallahbadia            # The Ranveer Show — India
+https://www.youtube.com/@JuniorsFarm                  # India
+https://www.youtube.com/@Figuringout.RaJShamani       # India
+https://www.youtube.com/@JuniorsFarm                  # India
+https://www.youtube.com/@junkyardtales                # Pakistan
+https://www.youtube.com/@TheTBHPodcast                # Pakistan
+https://www.youtube.com/@DesiBrosPodcast              # Diaspora Indian / British
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  LATIN AMERICAN / LATINX ENGLISH
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@LocatoraRadio
+https://www.youtube.com/@LatinaToLatina
+https://www.youtube.com/@TheBrownGirlMag
+https://www.youtube.com/@Café-Con-Pam-Podcast
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  EAST ASIAN ENGLISH (Filipino, Korean, Japanese, Chinese diaspora)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@AsianBossGirl
+https://www.youtube.com/@FilipinoVibes
+https://www.youtube.com/@PlainPodcast                 # Korean American
+https://www.youtube.com/@TheAsianMadeUSPodcast
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  MIDDLE EASTERN / ARAB ENGLISH
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@MakanyMakanak                # Arab / Egyptian English
+https://www.youtube.com/@TheArabPodcast
+https://www.youtube.com/@TwoArabsAndATime
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  EUROPEAN ENGLISH (UK regional, Irish, Australian, NZ)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@BBCPodcasts
+https://www.youtube.com/@TheGuardian
+https://www.youtube.com/@TheHighPerformancePodcast    # UK
+https://www.youtube.com/@joeroganpodcast              # US (general English)
+https://www.youtube.com/@TheRestIsHistoryPodcast      # UK
+https://www.youtube.com/@2JohnniesPodcast             # Irish
+https://www.youtube.com/@TheImperfectsPodcast         # Australian
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  NEWS BROADCASTS — exceptional for diverse accents
+# (Each show rotates dozens of correspondents from around the world)
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@aljazeeraenglish             # Multi-continent reporters
+https://www.youtube.com/@bbcworldservice              # Global English speakers
+https://www.youtube.com/@DWNews                       # Pan-European English
+https://www.youtube.com/@nhkworldjapan                # Japanese English
+https://www.youtube.com/@FRANCE24English              # French English
+https://www.youtube.com/@CNAInsider                   # Singapore English
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  ACADEMIC / TED — clean studio audio, international lineup
+# ═══════════════════════════════════════════════════════════════════════════
+https://www.youtube.com/@TED
+https://www.youtube.com/@TEDx
+https://www.youtube.com/@OpenLearn                    # Open University (UK)
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  SPEECH ACCENT ARCHIVE — 2,000+ international speakers reading the same
+#  passage. Available as direct WAV downloads, no YouTube needed.
+#  https://accent.gmu.edu/browse_atlas.php
+# (Use the website directly; not a YouTube source)

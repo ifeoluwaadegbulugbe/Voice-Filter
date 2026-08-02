@@ -1,0 +1,35 @@
+# StudioEnhance — Hearing-Aid Speech Enhancement
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Pretrained enhancer (DeepFilterNet 3 — real-time, 48 kHz, hearing-aid grade)
+deepfilternet>=0.5.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+noisereduce>=3.0.0
+scipy>=1.11.0
+numpy>=1.24.0
+pyloudnorm>=0.1.1     # LUFS loudness measurement for voice_boost.py
+
+# API server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+python-dotenv>=1.0.0
+websockets>=12.0
+
+# Evaluation
+pesq>=0.0.4
+pystoi>=0.3.3
+
+# Data fetching
+yt-dlp>=2024.04.09
+imageio-ffmpeg>=0.4.9
+datasets>=2.16.0
+huggingface_hub>=0.20.0
+
+# Utilities
+tqdm>=4.66.0
+matplotlib>=3.7.0
